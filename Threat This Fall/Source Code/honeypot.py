@@ -10,8 +10,8 @@ def start_honeypot():
     s.listen(5)
     print(f"[+]Honeypot running at IP address {ip} and port {port}")
     
-    account_sid = 'AC581971fa49eb53952edfcfca0856b502'
-    auth_token = 'aaa13c8dbf6cb81703ceaac38ab84dcf'
+    account_sid = '<twillio account sid>'
+    auth_token = '<twillio account auth token>'
     twilio_client = Client(account_sid, auth_token)
 
     log_file = open("honeypot_logs.txt", "a") # open the log file in append mode
@@ -28,7 +28,7 @@ def start_honeypot():
             message = twilio_client.messages.create( 
                                             from_='whatsapp:+14155238886',  
                                             body='Your device has be attacked',    
-                                            to='whatsapp:+917096635849' 
+                                            to='whatsapp:+<your number here>' 
                                         ) 
             
             log_file.write("Detected connection from IP address: " + addr[0] + "\n")
