@@ -78,8 +78,21 @@ they use.<br>
 attacker's IP address, ensuring that they cannot access
 the real network and compromising the security of the
 organization.</p>
+<br>
+
+<h2>
+TECHSTACK USED :
+</h2>
+<p>
+<li> ESP 32</li>
+<li> Note Carrier - F</li>
+<li> Parrot OS virtual machince</li>
+<li> Twillio </li>
+<li>Arduino IDE</p>
+</p>
+
   
-  
+  <br>
   <h2>CONTRIBUTORS</h2>
   <P>
   Manan Patel : https://github.com/0xManan <br>
