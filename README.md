@@ -5,7 +5,7 @@
 
 <b>Threat intelligent with honeypot</b>,  
 <ul>
-  <li>cutting-edge system that
+  <li>Cutting-edge system that
 integrates with Blue Wireless, Twilio and StoryBlok to
 provide real-time threat intelligence detection of
 cyber attacks.</li>
@@ -66,7 +66,7 @@ the overall security of the internal
 network and organization.
 </p> 
 <br>
-<h3>INTERNAL HONEYPOT<h3>
+<h3>EXTERNAL HONEYPOT<h3>
   <p>[+]In the external network, organizations are constantly
 facing cyberattacks on their network and web services.<br>
     [+]To identify and block these attackers, we have set up
@@ -88,7 +88,7 @@ TECHSTACK USED :
 <li> Note Carrier - F</li>
 <li> Parrot OS virtual machince</li>
 <li> Twillio </li>
-<li>Arduino IDE</p>
+<li> Arduino IDE </p>
 </p>
 
   
